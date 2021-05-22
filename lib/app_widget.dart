@@ -1,4 +1,4 @@
-import 'package:chapter_1_challenge_2/home_page.dart';
+import 'package:chapter_1_challenge_2/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
