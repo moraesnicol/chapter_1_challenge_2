@@ -7,6 +7,18 @@ class CreateNotePage extends StatefulWidget {
 
 class _CreateNotePageState extends State<CreateNotePage> {
   var description = "";
+  var textController = TextEditingController();
+
+  @override
+  void initState() {
+    WidgetsBinding.instance!.addPostFrameCallback((_) {
+      if (ModalRoute.of(context)!.settings.arguments != null) {
+        description = ModalRoute.of(context)!.settings.arguments as String;
+        textController.text = description;
+      }
+    });
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +35,7 @@ class _CreateNotePageState extends State<CreateNotePage> {
         child:
             Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
           TextField(
+            controller: textController,
             maxLines: null,
             onChanged: (value) {
               description = value;
@@ -32,7 +45,7 @@ class _CreateNotePageState extends State<CreateNotePage> {
           if (description.isNotEmpty)
             ElevatedButton(
                 onPressed: () {
-                  
+                  Navigator.pop(context, description);
                 },
                 child: Text("Save"))
         ]),
