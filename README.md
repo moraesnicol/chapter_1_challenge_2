@@ -33,3 +33,15 @@ A small notes App
    <img src="https://github.com/moraesnicol/chapter_1_challenge_2/blob/master/smallnotes.gif" >
 
 </div>
+
+# :rocket: Technologies
+This project was made using the follow technologies:
+
+* [Flutter](https://github.com/flutter/flutter)
+
+
+# :page_facing_up: License
+
+This project is under the [MIT License](./LICENSE) |
+Made with 💖 by [Gabriel Nicol](https://www.linkedin.com/in/gabrielnicol/).
+
