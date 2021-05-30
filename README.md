@@ -19,7 +19,7 @@
 
 # :coffee: About
 
-A small notes App
+A Small Notes App
 
 
 # 📌 Contents
