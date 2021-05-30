@@ -1,16 +1,35 @@
-# chapter_1_challenge_2
 
-A new Flutter project.
+<p align="center">
+   <img src="https://i.pinimg.com/originals/c1/65/1f/c1651f598d212acdfe551f103548e495.png" alt="flutter" width="300"/>
+</p>
 
-## Getting Started
+<p align="center">
+   <a href="https://www.linkedin.com/in/moraesnicol/">
+      <img alt="Gabriel Nicol" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+   </a>
+ 
+</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  :heavy_check_mark: Feed of Movies, powered by API
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<hr />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# :coffee: About
+
+A small notes App
+
+
+# 📌 Contents
+
+* [Screenshots](#camera-screenshot)
+* [Technologies](#rocket-technologies)
+* [License](#page_facing_up-license)
+
+# :camera: Screenshots
+<div align="center">
+   <img src="https://github.com/moraesnicol/chapter_1_challenge_2/blob/master/smallnotes.gif" >
+
+</div>
