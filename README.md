@@ -30,7 +30,7 @@ A small notes App
 
 # :camera: Screenshots
 <div align="center">
-   <img src="https://github.com/moraesnicol/chapter_1_challenge_2/blob/master/smallnotes.gif" >
+   <img src="https://github.com/moraesnicol/chapter_1_challenge_2/blob/master/smallnotes2.gif" >
 
 </div>
 
