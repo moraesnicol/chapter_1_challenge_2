@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  :heavy_check_mark: Feed of Movies, powered by API
+  :heavy_check_mark: Small Notes App
 </p>
 
 <hr />
