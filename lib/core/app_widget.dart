@@ -1,6 +1,9 @@
-import 'package:chapter_1_challenge_2/pages/create_note/create_note_page.dart';
-import 'package:chapter_1_challenge_2/pages/home/home_page.dart';
+
 import 'package:flutter/material.dart';
+
+import '../modules/create_note/pages/create_note_page.dart';
+
+import '../modules/home_page/pages/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({Key? key}) : super(key: key);
@@ -9,6 +12,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.amber, ),
       title: "Notes",
       initialRoute: "/home",
       routes: {
